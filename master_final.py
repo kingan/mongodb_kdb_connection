@@ -13,7 +13,7 @@ from textblob import TextBlob
 from textblob_aptagger import PerceptronTagger
 import re
 import datetime
-
+    
 #input = '2014-05_2.nml'
 input = sys.argv[1]
 f = open(input,'r')
