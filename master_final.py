@@ -37,7 +37,6 @@ def manip_name(input):
     input = input+'.xml'
     return input
 
-
 input = manip_name(input)
 st_input = input[:-4]
 
