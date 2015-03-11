@@ -24,7 +24,7 @@ class XmlDictObject(dict):
             return self.__getitem__('_text')
         else:
             return ''
-
+    
     @staticmethod
     def Wrap(x):
         """
