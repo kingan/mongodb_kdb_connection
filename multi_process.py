@@ -18,7 +18,7 @@ else:
 
 
 mp_output = mp.Queue()
-
+ 
 #This could launch the final_master py file
 def multi_process_init(i,o):
     i = sys.argv[1]+"/"+i
