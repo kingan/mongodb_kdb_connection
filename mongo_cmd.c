@@ -15,7 +15,7 @@ K djnNewsStory(K x,K y){
         char *str;
 
         mongoc_init ();
-
+	
         K syms=ktn(0,0);
 
         client = mongoc_client_new ("mongodb://grv-infobright:27017/");
