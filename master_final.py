@@ -81,6 +81,7 @@ def run_master():
     out.close()
     final_list = []
 
+
     #Generate well-formed XML
     well_formed_xml(input)
     #Create a Dictionary object with the XML tags removed
