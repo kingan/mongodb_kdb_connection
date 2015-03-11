@@ -13,7 +13,7 @@ def get_stopwords():
     stopwords = stopwords + punctuation
     return stopwords
 
-
+    
 def recursive_process_text(l):
     final_output = ''
     for item in l:
